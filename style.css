@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --color-default: #0a0d13;
+    --color-primary: #0d42ff;
+    --color-secondary: #0e1d34;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.navbar-brand {
+    font-size: 30px !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+.heroSection .heroContainer {
+    background-color: #0e1d34;
+    background-size: cover;
+    background-position: center;
+    color: #ffffffb3;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.heroContainer img {
+    height: 500px;
+    width: 450px;
+    background-size: cover;
+    padding: 0 0 16px;
+}
+.heroContents h3 {
+    color: #fff;
+    font-size: 48px;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+}
+.input-container {
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-control {
+    height: 80px;
+    border-radius: 10px!important;
+    padding: 10px;
+    border: none;
+  }
+  
+  .input-group-text {
+    background-color: #0d42ff!important;
+    padding: 20px 30px!important;
+    cursor: pointer;
+    margin-left: -23%;
+    border-radius: 10px!important;
+    color: white!important;
+  }
+    
+.heroAnalysis {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.stats h3 {
+    font-size: 32px;
+    font-family:'open Sans',sans-serif;
+    font-weight: 700;
+}
+
+.statsline {
+    display: flex;
+    height: 3px;
+    width: 20px;
+    background-color: #0d42FF;
+    margin: 20px auto;
+}
+
+.subHerocontainer {
+    padding-top: 30px;
+}
+
+.subheroLogo {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+}
+
+.subheroLogo i {
+    font-size: 42px;
+    color: var(--color-primary);
+}
+
+.subheroContents>h4 {
+    color: var(--color-secondary);
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subheroContents>p {
+    font-size: 15px;
+}
+
+.subheroLearn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.subheroLearn i {
+    font-size: 14px;
+    color: #444;
+}
+
+.subheroLogo i:hover {
+    color: #0d42FF;
+}
+
+.aboutusHeading h3 {
+    font-size: 32px;
+    color: #19335c;
+    font-weight: 700;
+}
+
+ul li {
+    display: flex;
+    gap: 15px;
+    align-items: start;
+}
+
+.aboutusContainer {
+    position: relative;
+    top: 80px;
+}
+
+.aboutusContents h5 {
+    color: #19335c;
+}
+
+.aboutusPoints i {
+    font-size: 32px;
+    color: #0d42FF;
+    margin-top: 10px;
+}
+
+.aboutusImage img {
+    width: 100%;
+    background-position: center;
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+.aboutusli{
+    padding: 0;
+}
+
+.ourServices {
+    margin: 10% 0;
+}
+.serviceline{
+    display: block;
+    height: 3px;
+    width: 50px;
+    margin: 20px auto;
+    background-color: #0d42FF;
+}
+
+.ourServices h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.servicecardImage .customImage {
+    width: 100%;
+    background-size: cover;
+}
+
+.callactionImage {
+    position: static;
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url(../img/cta-bg.jpg) center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.callactionImage h3 {
+    margin-top: 10px;
+}
+
+.callactionImage p {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.btnForAction {
+    padding: 12px 50px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.btnForAction:hover {
+    background-color: #0d42FF;
+    border: 2px solid #0d42FF;
+}
+
+.givecontainer img {
+    height: 350px;
+    width: 500px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 10px;
+    display: block;
+}
+
+.givelist {
+    padding: 0;
+}
+
+.givelist li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 0;
+    /* Remove the default margin from the left */
+}
+
+.phonecontainer {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phoneImage img {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.baglist {
+    padding: 0;
+}
+
+.baglist li {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.pricingHeading {
+    display: grid;
+    place-items: center;
+    margin-top: 10%;
+}
+.cardline{
+    display: block;
+    height: 3px;
+    width: 50px;
+    margin-top: 30%;
+    margin: 0 auto;
+    background-color: #0d42FF;
+}
+
+.dollar {
+    position: relative;
+    bottom: 10px;
+    font-weight: 400;
+}
+
+.pricinglist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricinglist li {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.btnForBuy {
+    padding: 10px 40px;
+    color: #0d42FF;
+    background-color: transparent;
+    border: 1px solid #0d42FF;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.btnForBuy:hover {
+    background-color: #0d42FF;
+    color: #fff;
+    font-weight: 500;
+}
+
+.FAQheading h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.FAQline{
+    display: block;
+    height: 3px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #0d42FF;
+}
+
+.accordion-item {
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(14, 29, 52, 0.03);
+}
+
+.accordion-item::before {
+    /* content:"?"; */
+
+}
+
+.footcontainer {
+    background-color: #0e1d34;
+    color: #fff;
+  }
+
+  .footcontents {
+    margin-top: 30px;
+  }
+
+  .socialicons {
+    padding-left: 5px;
+  }
+
+  .socialicons li i {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 40px;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .usefullist li{
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .contactHeading h3{
+    font-size:18px; font-weight: 700; margin-top : 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:451px) and (max-width:576px) {
+    .heroContents h3{
+        font-size: 30px;
+    }
+    .heroContainer .row{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .heroAnalysis{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .aboutusContainer .row{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 20px 0;
+    }
+    .input-group-text{
+        margin-left: -25%;
+    }
+    .aboutusHeading h3{
+        margin-top: 20px;
+    }
+    .aboutusli{
+        margin-bottom: 20px;
+    }
+    .ourServices h2{
+        margin-top: 30px;
+    }
+    .phonecontainer .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .pricinglist li{
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+}
+@media screen and (min-width:300px) and (max-width:450px){
+    .heroContents h3{
+        font-size: 30px;
+        padding: 0;
+    }
+    .heroContainer .row{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .heroAnalysis{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .aboutusContainer .row{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0px 0;
+    }
+    .input-group-text{
+        margin-left: -42%;
+    }
+    .aboutusHeading h3{
+        margin-top: 20px;
+    }
+    .aboutusli{
+        margin-bottom: 20px;
+    }
+    .ourServices h2{
+        margin-top: 30px;
+    }
+    .phonecontainer .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .pricinglist li{
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+}
